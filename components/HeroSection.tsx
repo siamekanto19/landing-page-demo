@@ -1,6 +1,5 @@
 import Image from 'next/image'
 import React from 'react'
-import {} from '@tabler/icons-react'
 
 const HeroSection = () => {
   return (
