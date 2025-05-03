@@ -6,15 +6,18 @@ const HeroSection = () => {
     <Fragment>
       <div className='x-container'>
         <img
-          className='lg:hidden static z-10 -mt-[100px]'
+          className='lg:hidden static z-10 -mt-[80px]'
           src='/img/hero.png'
           alt='Hero'
         />
       </div>
-      <section className='flex flex-col-reverse lg:flex-row x-container mx-auto relative lg:h-[calc(100vh-155px)] -mt-[115px] lg:-mt-0'>
+      <section className='flex flex-col-reverse lg:flex-row x-container mx-auto relative lg:h-[calc(100vh-155px)] -mt-[90px] lg:-mt-0'>
         <div className='w-full lg:w-[60%] lg:mt-[57px] static z-20'>
-          <h1 className='font-extrabold lg:font-bold text-[25px] lg:text-[35px] text-white font-urbanist text-center lg:text-left'>
-            Want to Turn Social Media Into a<br /> Profitable Career?
+          <h1 className='font-extrabold lg:font-bold text-[25px] lg:text-[35px] text-white font-urbanist text-center lg:text-left hidden lg:block'>
+            Want to Turn Social Media Into a <br /> Profitable Career?
+          </h1>
+          <h1 className='font-extrabold lg:font-bold text-[25px] lg:text-[35px] text-white font-urbanist text-center lg:text-left lg:hidden'>
+            Want to Turn Social Media Into a Profitable Career?
           </h1>
           <h2 className='font-extrabold lg:font-bold text-[25px] lg:text-[35px] font-urbanist text-[#00E7F9] text-shadow-custom text-center lg:text-left'>
             Discover your way to success <br /> with Fametonic:
