@@ -82,12 +82,10 @@ const HeroSection = () => {
             </p>
           </div>
         </div>
-        <div className='w-full lg:w-[70%] hidden lg:block h-full lg:absolute right-0 top-0'>
-          <img
-            className='w-full h-full object-cover'
-            src='/img/hero.png'
-            alt='Hero'
-          />
+        <div className='absolute top-0 right-0 w-[666px] h-[679px]'>
+          <div className='relative w-[666px] h-[679px] hidden lg:block'>
+            <Image src='/img/hero.png' fill alt='Hero' objectFit='cover' />
+          </div>
         </div>
       </section>
     </Fragment>
