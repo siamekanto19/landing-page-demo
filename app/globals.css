@@ -34,6 +34,6 @@ body {
   }
 
   .x-container {
-    @apply w-10/12 xl:w-10/12 2xl:w-2/3 mx-auto;
+    @apply w-10/12 xl:w-[77%] 2xl:w-2/3 mx-auto;
   }
 }
